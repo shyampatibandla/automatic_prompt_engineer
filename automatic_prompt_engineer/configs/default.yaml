@@ -6,7 +6,8 @@ generation:
     name: GPT_forward
     batch_size: 500
     gpt_config:
-      model: text-davinci-002
+      #model: #text-davinci-002
+      engine: inc-gpt-4-32k
       temperature: 0.9
       max_tokens: 50
       top_p: 0.9
